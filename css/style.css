@@ -79,3 +79,19 @@ label {
         width: 13em;
     }
 }
+
+.sc {
+    animation-name: mianimacion;
+    animation-duration: 10s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mianimacion {
+    0%{color: #f39c12; background-color: #000000; left: 0; top: 0px}
+    25% {color: rgb(254, 211, 48); background-color: #000000; left: 100px; top: 0px}
+    50%{color: #f39c12; background-color: #000000;  right: 100px; top: 0px}
+    75% {color: rgb(254, 211, 48); background-color: #000000; left: 0; top: 0px}
+    100%{color: #f39c12; background-color: #000000; left: 0;right: 100px;}
+}
