@@ -148,10 +148,10 @@ label {
 
     @keyframes mianimacion {
         0%{color: #f39c12; background-color: #000000; left: 0; top: 0px}
-        25% {color: rgb(254, 211, 48); background-color: #000000; left: 140px; top: 0px}
-        50%{color: #f39c12; background-color: #000000;  right: 140px; top: 0px}
+        25% {color: rgb(254, 211, 48); background-color: #000000; left: 135px; top: 0px}
+        50%{color: #f39c12; background-color: #000000;  right: 135px; top: 0px}
         75% {color: rgb(254, 211, 48); background-color: #000000; left: 0; top: 0px}
-        100%{color: #f39c12; background-color: #000000; left: 0;right: 140px;}
+        100%{color: #f39c12; background-color: #000000; left: 0;right: 135px;}
     }
 }
 
